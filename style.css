@@ -1,0 +1,136 @@
+body {
+  background-image: -webkit-linear-gradient();
+}
+
+h1, h3, p, #goodfish-link {
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.fab, .fa-brands {
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+/* #goodfish-link {
+  color: rgb(0, 116, 83);
+} */
+
+.top-bio {
+  font-size: medium;
+  width: 600px;
+  margin: 25px auto;
+  /* border-style: double; */
+  box-shadow: 40px 20px #EF476F;
+  background-color: #FFD166;
+  text-align: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.links {
+  font-size: medium;
+  /* height: 100px; */
+  width: 600px;
+  /* padding: 20px; */
+  margin: 50px auto;
+  /* border: double; */
+  box-shadow: 40px 20px #06D6A0;
+  background-color: #118AB2;
+  text-align: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+#profile_pic {
+  width: 200px;
+  height: 200px;
+  /* border: 100px black; */
+  border-radius: 100px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.socials-list {
+  font-size: 50px;
+  display: inline;
+  padding: 25px;
+  color: rgb(149, 175, 201);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.music {
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+  box-shadow: 40px 20px #9381ff;
+  background-color: #ffd8be;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+/* .fab {
+  margin: 0px auto;
+  size: 100px;
+} */
+
+/* .top-bio {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* CSS HEX
+--polynesian-blue: #054a91ff;
+--steel-blue: #3e7cb1ff;
+--vista-blue: #81a4cdff;
+--alice-blue: #dbe4eeff;
+--jade: #00a676ff;
